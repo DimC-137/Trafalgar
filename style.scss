@@ -523,6 +523,23 @@ footer {
     height: 432px;
     display: flex;
     margin-top: 200px;
+    div.elm4 img {
+        display: flex;
+        position: absolute;
+        z-index: 0;
+        left: 0px;
+        bottom: 0px;
+        scale: 100%;
+        overflow: hidden;
+    }
+    div.elm5 img {
+        display: flex;
+        position: absolute;
+        z-index: -9999;
+        right: 20px;
+        top: -130px;
+        scale: 50%;
+    }
     div.cont {
         margin-top: 118px;
         margin-bottom: 113px;
